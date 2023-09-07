@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybusiness.domain.repository.VisitInfoMapper">
+
+	<resultMap type="com.example.mybusiness.domain.model.Client" id="ClientMap">
+		<id column="client_id" property="clientId" />
+		<result column="first_name" property="firstName" />
+		<result column="last_name" property="lastName" />
+		<result column="first_name_kana" property="firstNameKana" />
+		<result column="last_name_kana" property="lastNameKana" />
+		<result column="age" property="age" />
+		<result column="gender" property="gender" />
+		<result column="workplace" property="workplace" />
+		<result column="job_title" property="jobTitle" />
+		<result column="zip_code" property="zipCode" />
+		<result column="address" property="address" />
+		<result column="building_name" property="buildingName" />
+		<result column="contact_number" property="contactNumber" />
+		<result column="e_mail" property="eMail" />
+		<result column="payment_method" property="paymentMethod" />
+		<collection property="visitInfoList" resultMap="VisitInfoMap" columnPrefix="visitInfo_"/>
+	</resultMap>
+	<resultMap type="com.example.mybusiness.domain.model.VisitInfo" id="VisitInfoMap">
+		<id column="visit_id" property="visitId" />
+		<result column="client_id" property="clientId" />
+		<result column="entery_time" property="entryTime" />
+		<result column="exit_time" property="exitTime" />
+	</resultMap>
+
+	<select id="findAllDetails" resultMap="ClientMap">
+		SELECT
+		 client.client_id
+		 , client.first_name
+		 , client.last_name
+		 , client.first_name_kana
+		 , client.last_name_kana
+		 , client.age
+		 , client.gender
+		 , client.workplace
+		 , client.job_title
+		 , client.zip_code
+		 , client.address
+		 , client.building_name
+		 , client.contact_number
+		 , client.e_mail
+		 , client.payment_method
+		 , visit_info.visit_id AS visitInfo_visit_id
+		 , visit_info.client_id AS visitInfo_client_id
+		 , visit_info.entery_time AS visitInfo_entery_time
+		 , visit_info.exit_time AS visitInfo_exit_time
+		FROM
+		 client
+		LEFT JOIN
+		 visit_info
+		ON
+		 client.client_id = visit_info.client_id
+	</select>
+	<select id="findDetailsById" resultMap="ClientMap">
+		SELECT
+		 client.client_id
+		 , client.first_name
+		 , client.last_name
+		 , client.first_name_kana
+		 , client.last_name_kana
+		 , client.age
+		 , client.gender
+		 , client.workplace
+		 , client.job_title
+		 , client.zip_code
+		 , client.address
+		 , client.building_name
+		 , client.contact_number
+		 , client.e_mail
+		 , client.payment_method
+		 , visit_info.visit_id AS visitInfo_visit_id
+		 , visit_info.client_id AS visitInfo_client_id
+		 , visit_info.entery_time AS visitInfo_entery_time
+		 , visit_info.exit_time AS visitInfo_exit_time
+		FROM
+		 client
+		LEFT JOIN
+		 visit_info
+		ON
+		 client.client_id = visit_info.client_id
+		WHERE
+		 client.client_id = #{clientId}
+	</select>
+	<insert id="insertEntryTime" parameterType="com.example.mybusiness.domain.model.VisitInfo" useGeneratedKeys="true" keyProperty="visitId">
+		INSERT INTO
+		 visit_info(client_id, entery_time)
+		VALUES
+		 (#{clientId}, #{entryTime})
+	</insert>
+	<update id="updateExitTime" parameterType="com.example.mybusiness.domain.model.VisitInfo">
+		UPDATE
+		 visit_info
+		SET
+		 client_id=#{clientId}, exit_time=#{exitTime}
+		WHERE
+		 visit_id=(SELECT
+		 			MAX(visit_id)
+				   FROM
+				   	visit_info
+				   WHERE
+				   	client_id=#{clientId}
+				  )
+	</update>
+
+</mapper>

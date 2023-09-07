@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybusiness.domain.repository.ClientMapper">
+
+	<resultMap type="com.example.mybusiness.domain.model.Client" id="clientMap">
+		<id column="client_id" property="clientId" />
+		<result column="first_name" property="firstName" />
+		<result column="last_name" property="lastName" />
+		<result column="first_name_kana" property="firstNameKana" />
+		<result column="last_name_kana" property="lastNameKana" />
+		<result column="age" property="age" />
+		<result column="gender" property="gender" />
+		<result column="workplace" property="workplace" />
+		<result column="job_title" property="jobTitle" />
+		<result column="zip_code" property="zipCode" />
+		<result column="address" property="address" />
+		<result column="building_name" property="buildingName" />
+		<result column="contact_number" property="contactNumber" />
+		<result column="e_mail" property="eMail" />
+		<result column="payment_method" property="paymentMethod" />
+	</resultMap>
+
+	<select id="findById" resultMap="clientMap">
+		SELECT
+		 *
+		FROM
+		 client
+		WHERE
+		 client_id = #{clientId}
+	</select>
+	<delete id="deleteById" parameterType="com.example.mybusiness.domain.model.Client">
+		DELETE FROM
+		 client
+		WHERE
+		 client_id = #{clientId}
+	</delete>
+	<insert id="insert" parameterType="com.example.mybusiness.domain.model.Client" useGeneratedKeys="true" keyProperty="clientId">
+		INSERT
+		INTO client(
+		 first_name
+		 , last_name
+		 , first_name_kana
+		 , last_name_kana
+		 , age
+		 , gender
+		 , workplace
+		 , job_title
+		 , zip_code
+		 , address
+		 , building_name
+		 , contact_number
+		 , e_mail
+		 , payment_method
+		)
+		VALUES (
+		 #{firstName}
+		 , #{lastName}
+		 , #{firstNameKana}
+		 , #{lastNameKana}
+		 , #{age}
+		 , #{gender}
+		 , #{workplace}
+		 , #{jobTitle}
+		 , #{zipCode}
+		 , #{address}
+		 , #{buildingName}
+		 , #{contactNumber}
+		 , #{eMail}
+ 		 , #{paymentMethod}
+		)
+	</insert>
+	<update id="update" parameterType="com.example.mybusiness.domain.model.Client">
+		UPDATE
+		 client
+		SET
+		 first_name=#{firstName}
+		 , last_name=#{lastName}
+		 , first_name_kana=#{firstNameKana}
+		 , last_name_kana=#{lastNameKana}
+		 , age=#{age}, gender=#{gender}
+		 , workplace=#{workplace}
+		 , job_title=#{jobTitle}
+		 , zip_code=#{zipCode}
+		 , address=#{address}
+		 , building_name=#{buildingName}
+		 , contact_number=#{contactNumber}
+		 , e_mail=#{eMail}
+		 , payment_method=#{paymentMethod}
+		WHERE
+		 client_id=#{clientId}
+	</update>
+
+</mapper>

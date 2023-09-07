@@ -1,0 +1,53 @@
+2023-09-06 18:33:28,973 [HikariPool-1 housekeeper] WARN  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d4h14m6s968ms515µs300ns).
+2023-09-06 22:21:51,934 [RMI TCP Connection(7)-127.0.0.1] INFO  Application shutdown requested.
+2023-09-06 22:21:52,073 [RMI TCP Connection(7)-127.0.0.1] INFO  Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:21:52,074 [RMI TCP Connection(7)-127.0.0.1] INFO  Stopping service [Tomcat]
+2023-09-06 22:21:52,078 [RMI TCP Connection(7)-127.0.0.1] INFO  Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-06 22:21:52,084 [RMI TCP Connection(7)-127.0.0.1] INFO  Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:21:52,088 [RMI TCP Connection(7)-127.0.0.1] INFO  Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:21:52,091 [RMI TCP Connection(7)-127.0.0.1] INFO  HikariPool-1 - Shutdown initiated...
+2023-09-06 22:21:52,095 [RMI TCP Connection(7)-127.0.0.1] INFO  HikariPool-1 - Shutdown completed.
+2023-09-06 22:21:55,945 [background-preinit] INFO  HV000001: Hibernate Validator 6.2.5.Final
+2023-09-06 22:21:55,945 [main] INFO  Starting MybusinessApplication using Java 11.0.5 on MSI with PID 17992 (C:\Users\rzeka\Desktop\mybusiness\target\classes started by rzeka in C:\Users\rzeka\Desktop\mybusiness)
+2023-09-06 22:21:55,948 [main] INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-06 22:21:56,630 [main] INFO  Tomcat initialized with port(s): 8080 (http)
+2023-09-06 22:21:56,636 [main] INFO  Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:21:56,636 [main] INFO  Starting service [Tomcat]
+2023-09-06 22:21:56,637 [main] INFO  Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-09-06 22:21:56,721 [main] INFO  Initializing Spring embedded WebApplicationContext
+2023-09-06 22:21:56,722 [main] INFO  Root WebApplicationContext: initialization completed in 750 ms
+2023-09-06 22:21:56,740 [main] INFO  HikariPool-1 - Starting...
+2023-09-06 22:21:56,830 [main] INFO  HikariPool-1 - Start completed.
+2023-09-06 22:21:56,837 [main] INFO  H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-09-06 22:21:57,289 [main] INFO  Starting ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:21:57,316 [main] INFO  Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 22:21:57,323 [main] INFO  Started MybusinessApplication in 1.622 seconds (JVM running for 2.213)
+2023-09-06 22:23:48,639 [RMI TCP Connection(4)-127.0.0.1] INFO  Application shutdown requested.
+2023-09-06 22:23:48,770 [RMI TCP Connection(4)-127.0.0.1] INFO  Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:23:48,770 [RMI TCP Connection(4)-127.0.0.1] INFO  Stopping service [Tomcat]
+2023-09-06 22:23:48,776 [RMI TCP Connection(4)-127.0.0.1] INFO  Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:23:48,778 [RMI TCP Connection(4)-127.0.0.1] INFO  Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:23:48,782 [RMI TCP Connection(4)-127.0.0.1] INFO  HikariPool-1 - Shutdown initiated...
+2023-09-06 22:23:48,784 [RMI TCP Connection(4)-127.0.0.1] INFO  HikariPool-1 - Shutdown completed.
+2023-09-06 22:23:52,145 [main] INFO  Starting MybusinessApplication using Java 11.0.5 on MSI with PID 7416 (C:\Users\rzeka\Desktop\mybusiness\target\classes started by rzeka in C:\Users\rzeka\Desktop\mybusiness)
+2023-09-06 22:23:52,144 [background-preinit] INFO  HV000001: Hibernate Validator 6.2.5.Final
+2023-09-06 22:23:52,147 [main] INFO  No active profile set, falling back to 1 default profile: "default"
+2023-09-06 22:23:52,808 [main] INFO  Tomcat initialized with port(s): 8080 (http)
+2023-09-06 22:23:52,812 [main] INFO  Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:23:52,813 [main] INFO  Starting service [Tomcat]
+2023-09-06 22:23:52,813 [main] INFO  Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-09-06 22:23:52,880 [main] INFO  Initializing Spring embedded WebApplicationContext
+2023-09-06 22:23:52,880 [main] INFO  Root WebApplicationContext: initialization completed in 707 ms
+2023-09-06 22:23:52,899 [main] INFO  HikariPool-1 - Starting...
+2023-09-06 22:23:52,961 [main] INFO  HikariPool-1 - Start completed.
+2023-09-06 22:23:52,970 [main] INFO  H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-09-06 22:23:53,356 [main] INFO  Starting ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:23:53,369 [main] INFO  Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 22:23:53,376 [main] INFO  Started MybusinessApplication in 1.473 seconds (JVM running for 2.066)
+2023-09-06 22:24:57,663 [RMI TCP Connection(4)-127.0.0.1] INFO  Application shutdown requested.
+2023-09-06 22:24:57,797 [RMI TCP Connection(4)-127.0.0.1] INFO  Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:24:57,798 [RMI TCP Connection(4)-127.0.0.1] INFO  Stopping service [Tomcat]
+2023-09-06 22:24:57,803 [RMI TCP Connection(4)-127.0.0.1] INFO  Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:24:57,805 [RMI TCP Connection(4)-127.0.0.1] INFO  Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-06 22:24:57,808 [RMI TCP Connection(4)-127.0.0.1] INFO  HikariPool-1 - Shutdown initiated...
+2023-09-06 22:24:57,810 [RMI TCP Connection(4)-127.0.0.1] INFO  HikariPool-1 - Shutdown completed.

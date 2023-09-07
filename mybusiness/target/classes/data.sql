@@ -1,0 +1,2 @@
+INSERT INTO client (first_name, last_name, first_name_kana, last_name_kana, age, gender, workplace, job_title, zip_code, address, building_name, contact_number, e_mail, payment_method)
+	VALUES ('大塚', '吏於', 'オオツカ', 'リオ', '29', '男', 'YURI有限責任会社', '専務取締役', '260-0832', '千葉県千葉市中央区寒川町3丁目12番地', '', '070-4005-5013', 'o2kr1o@docomo.co.jp', 'クレジットカード');

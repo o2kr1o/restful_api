@@ -1,0 +1,116 @@
+2023-09-05 00:03:55,606 [http-nio-8080-exec-2] ERROR 404 Not Found
+2023-09-05 00:05:08,625 [http-nio-8080-exec-4] ERROR 404 Not Found
+2023-09-05 00:05:30,391 [http-nio-8080-exec-5] ERROR 404 Not Found
+2023-09-05 00:05:39,869 [http-nio-8080-exec-6] ERROR 404 Not Found
+2023-09-05 00:10:10,124 [http-nio-8080-exec-7] ERROR 404 Not Found
+2023-09-05 00:12:28,497 [http-nio-8080-exec-10] ERROR 405 Method Not Allowed
+2023-09-05 00:15:35,191 [http-nio-8080-exec-3] ERROR 400 Bad Request
+2023-09-05 00:15:51,554 [http-nio-8080-exec-5] ERROR 405 Method Not Allowed
+2023-09-05 00:16:23,776 [http-nio-8080-exec-6] ERROR 400 Bad Request
+2023-09-05 00:34:18,542 [http-nio-8080-exec-1] ERROR 415 Unsupported Media Type
+2023-09-05 00:34:59,440 [http-nio-8080-exec-8] ERROR 404 Not Found
+2023-09-05 00:35:02,453 [http-nio-8080-exec-9] ERROR 404 Not Found
+2023-09-05 00:35:05,756 [http-nio-8080-exec-10] ERROR 404 Not Found
+2023-09-05 00:35:22,196 [http-nio-8080-exec-4] ERROR 404 Not Found
+2023-09-05 00:35:47,712 [http-nio-8080-exec-8] ERROR 404 Not Found
+2023-09-05 00:36:00,079 [http-nio-8080-exec-9] ERROR 404 Not Found
+2023-09-05 00:36:24,260 [http-nio-8080-exec-10] ERROR 404 Not Found
+2023-09-05 00:36:31,403 [http-nio-8080-exec-2] ERROR 405 Method Not Allowed
+2023-09-05 00:37:06,096 [http-nio-8080-exec-1] ERROR 400 Bad Request
+2023-09-05 00:37:42,775 [http-nio-8080-exec-4] ERROR 405 Method Not Allowed
+2023-09-05 00:37:49,442 [http-nio-8080-exec-5] ERROR 405 Method Not Allowed
+2023-09-05 00:39:03,261 [http-nio-8080-exec-8] ERROR 405 Method Not Allowed
+2023-09-05 00:39:11,644 [http-nio-8080-exec-9] ERROR 415 Unsupported Media Type
+2023-09-05 00:39:21,550 [http-nio-8080-exec-10] ERROR 400 Bad Request
+2023-09-05 00:39:28,532 [http-nio-8080-exec-1] ERROR 404 Not Found
+2023-09-05 00:39:40,823 [http-nio-8080-exec-3] ERROR 405 Method Not Allowed
+2023-09-05 00:39:49,041 [http-nio-8080-exec-4] ERROR 405 Method Not Allowed
+2023-09-05 00:39:56,406 [http-nio-8080-exec-5] ERROR 405 Method Not Allowed
+2023-09-05 00:40:02,150 [http-nio-8080-exec-6] ERROR 405 Method Not Allowed
+2023-09-05 00:40:13,429 [http-nio-8080-exec-7] ERROR Field: firstName Message: This information is required
+2023-09-05 00:40:13,429 [http-nio-8080-exec-7] ERROR Field: paymentMethod Message: This information is required
+2023-09-05 00:40:13,429 [http-nio-8080-exec-7] ERROR Field: lastNameKana Message: This information is required
+2023-09-05 00:40:13,429 [http-nio-8080-exec-7] ERROR Field: lastName Message: This information is required
+2023-09-05 00:40:13,429 [http-nio-8080-exec-7] ERROR Field: firstNameKana Message: This information is required
+2023-09-05 00:40:13,430 [http-nio-8080-exec-7] ERROR 422 Unprocessable Entity
+2023-09-05 00:40:21,745 [http-nio-8080-exec-8] ERROR Field: age Message: This information is required
+2023-09-05 00:40:21,745 [http-nio-8080-exec-8] ERROR 422 Unprocessable Entity
+2023-09-05 00:40:34,016 [http-nio-8080-exec-9] ERROR Field: lastNameKana Message: This information is required
+2023-09-05 00:40:34,016 [http-nio-8080-exec-9] ERROR Field: paymentMethod Message: This information is required
+2023-09-05 00:40:34,016 [http-nio-8080-exec-9] ERROR Field: firstNameKana Message: This information is required
+2023-09-05 00:40:34,016 [http-nio-8080-exec-9] ERROR Field: lastName Message: This information is required
+2023-09-05 00:40:34,016 [http-nio-8080-exec-9] ERROR Field: firstName Message: This information is required
+2023-09-05 00:40:34,016 [http-nio-8080-exec-9] ERROR 422 Unprocessable Entity
+2023-09-05 00:40:45,883 [http-nio-8080-exec-10] ERROR Field: age Message: This information is required
+2023-09-05 00:40:45,883 [http-nio-8080-exec-10] ERROR 422 Unprocessable Entity
+2023-09-05 00:40:57,213 [http-nio-8080-exec-2] ERROR Field: age Message: Please enter a number from 16 or more
+2023-09-05 00:40:57,214 [http-nio-8080-exec-2] ERROR 422 Unprocessable Entity
+2023-09-05 00:41:09,141 [http-nio-8080-exec-1] ERROR Field: age Message: This is not a valid format
+2023-09-05 00:41:09,141 [http-nio-8080-exec-1] ERROR Field: age Message: Please enter a number from 16 or more
+2023-09-05 00:41:09,141 [http-nio-8080-exec-1] ERROR 422 Unprocessable Entity
+2023-09-05 00:41:27,383 [http-nio-8080-exec-3] ERROR Field: gender Message: This information is required
+2023-09-05 00:41:27,383 [http-nio-8080-exec-3] ERROR 422 Unprocessable Entity
+2023-09-05 00:41:36,155 [http-nio-8080-exec-4] ERROR Field: zipCode Message: This is not a valid format
+2023-09-05 00:41:36,155 [http-nio-8080-exec-4] ERROR 422 Unprocessable Entity
+2023-09-05 00:41:46,523 [http-nio-8080-exec-5] ERROR Field: zipCode Message: This is not a valid format
+2023-09-05 00:41:46,523 [http-nio-8080-exec-5] ERROR 422 Unprocessable Entity
+2023-09-05 00:41:56,081 [http-nio-8080-exec-6] ERROR Field: address Message: This information is required
+2023-09-05 00:41:56,081 [http-nio-8080-exec-6] ERROR 422 Unprocessable Entity
+2023-09-05 00:42:06,177 [http-nio-8080-exec-7] ERROR Field: address Message: Please enter within 255 words
+2023-09-05 00:42:06,177 [http-nio-8080-exec-7] ERROR 422 Unprocessable Entity
+2023-09-05 00:42:15,289 [http-nio-8080-exec-8] ERROR Field: contactNumber Message: This is not a valid format
+2023-09-05 00:42:15,289 [http-nio-8080-exec-8] ERROR Field: contactNumber Message: This information is required
+2023-09-05 00:42:15,289 [http-nio-8080-exec-8] ERROR 422 Unprocessable Entity
+2023-09-05 00:42:22,296 [http-nio-8080-exec-9] ERROR Field: contactNumber Message: This is not a valid format
+2023-09-05 00:42:22,296 [http-nio-8080-exec-9] ERROR 422 Unprocessable Entity
+2023-09-05 00:42:29,486 [http-nio-8080-exec-10] ERROR Field: eMail Message: This information is required
+2023-09-05 00:42:29,486 [http-nio-8080-exec-10] ERROR Field: eMail Message: This is not a valid format
+2023-09-05 00:42:29,486 [http-nio-8080-exec-10] ERROR 422 Unprocessable Entity
+2023-09-05 00:42:40,401 [http-nio-8080-exec-2] ERROR Field: eMail Message: This is not a valid format
+2023-09-05 00:42:40,402 [http-nio-8080-exec-2] ERROR 422 Unprocessable Entity
+2023-09-05 00:42:49,840 [http-nio-8080-exec-1] ERROR 404 Not Found
+2023-09-05 00:42:53,606 [http-nio-8080-exec-3] ERROR 405 Method Not Allowed
+2023-09-05 00:43:04,094 [http-nio-8080-exec-4] ERROR 404 Not Found
+2023-09-05 00:43:07,955 [http-nio-8080-exec-5] ERROR 405 Method Not Allowed
+2023-09-05 00:43:14,913 [http-nio-8080-exec-6] ERROR 404 Not Found
+2023-09-05 00:43:18,728 [http-nio-8080-exec-7] ERROR 405 Method Not Allowed
+2023-09-05 00:43:22,909 [http-nio-8080-exec-8] ERROR 404 Not Found
+2023-09-05 00:43:26,829 [http-nio-8080-exec-9] ERROR 405 Method Not Allowed
+2023-09-05 00:43:34,617 [http-nio-8080-exec-10] ERROR 404 Not Found
+2023-09-05 00:43:42,015 [http-nio-8080-exec-2] ERROR 405 Method Not Allowed
+2023-09-05 00:43:52,973 [http-nio-8080-exec-1] ERROR Field: clientId Message: This information is required
+2023-09-05 00:43:52,974 [http-nio-8080-exec-1] ERROR 422 Unprocessable Entity
+2023-09-05 00:44:01,972 [http-nio-8080-exec-3] ERROR Field: clientId Message: This information is required
+2023-09-05 00:44:01,973 [http-nio-8080-exec-3] ERROR 422 Unprocessable Entity
+2023-09-05 00:44:11,743 [http-nio-8080-exec-4] ERROR An error occured while inserting record
+2023-09-05 00:44:11,744 [http-nio-8080-exec-4] ERROR 400 Bad Request
+2023-09-05 00:44:25,381 [http-nio-8080-exec-6] ERROR An error occured while inserting record
+2023-09-05 00:44:25,381 [http-nio-8080-exec-6] ERROR 400 Bad Request
+2023-09-05 00:44:38,107 [http-nio-8080-exec-8] ERROR 404 Not Found
+2023-09-05 00:44:46,264 [http-nio-8080-exec-9] ERROR 405 Method Not Allowed
+2023-09-05 00:44:55,932 [http-nio-8080-exec-10] ERROR An error occured while inserting record
+2023-09-05 00:44:55,933 [http-nio-8080-exec-10] ERROR 400 Bad Request
+2023-09-05 00:45:03,334 [http-nio-8080-exec-1] ERROR An error occured while inserting record
+2023-09-05 00:45:03,334 [http-nio-8080-exec-1] ERROR 400 Bad Request
+2023-09-05 00:51:01,884 [http-nio-8080-exec-1] ERROR 400 Bad Request
+2023-09-05 00:51:55,973 [http-nio-8080-exec-7] ERROR 404 Not Found
+2023-09-05 00:52:01,687 [http-nio-8080-exec-8] ERROR 404 Not Found
+2023-09-05 00:52:54,414 [http-nio-8080-exec-7] ERROR 400 Bad Request
+2023-09-05 00:53:06,374 [http-nio-8080-exec-9] ERROR 415 Unsupported Media Type
+2023-09-05 13:45:21,798 [http-nio-8080-exec-6] ERROR 404 Not Found
+2023-09-05 13:45:31,116 [http-nio-8080-exec-10] ERROR 404 Not Found
+2023-09-05 13:46:12,971 [http-nio-8080-exec-3] ERROR 404 Not Found
+2023-09-05 13:46:26,481 [http-nio-8080-exec-4] ERROR 404 Not Found
+2023-09-05 13:46:29,261 [http-nio-8080-exec-5] ERROR 404 Not Found
+2023-09-05 13:50:17,405 [http-nio-8080-exec-10] ERROR 404 Not Found
+2023-09-05 13:50:37,002 [http-nio-8080-exec-9] ERROR 405 Method Not Allowed
+2023-09-05 13:51:03,604 [http-nio-8080-exec-2] ERROR 400 Bad Request
+2023-09-05 13:51:19,102 [http-nio-8080-exec-3] ERROR 415 Unsupported Media Type
+2023-09-05 13:51:34,307 [http-nio-8080-exec-4] ERROR 404 Not Found
+2023-09-05 13:51:46,020 [http-nio-8080-exec-5] ERROR Field: lastNameKana Message: This information is required
+2023-09-05 13:51:46,020 [http-nio-8080-exec-5] ERROR Field: paymentMethod Message: This information is required
+2023-09-05 13:51:46,020 [http-nio-8080-exec-5] ERROR Field: lastName Message: This information is required
+2023-09-05 13:51:46,020 [http-nio-8080-exec-5] ERROR Field: firstName Message: This information is required
+2023-09-05 13:51:46,020 [http-nio-8080-exec-5] ERROR Field: firstNameKana Message: This information is required
+2023-09-05 13:51:46,021 [http-nio-8080-exec-5] ERROR 422 Unprocessable Entity
+2023-09-05 13:55:52,356 [http-nio-8080-exec-8] ERROR 404 Not Found
